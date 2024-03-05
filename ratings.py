@@ -12,7 +12,7 @@ def restaurant_rating(text_file):
     rating_score_items = sorted(rating_score.items()) # {[(key, value), (key, value), (key, value)]}
 
     for key, value in rating_score_items:
-        print(f"{key} {value}")
+        print(f"{key} is rated at {value}")
     
 
         
