@@ -13,6 +13,8 @@ def restaurant_rating(text_file):
 
     for key, value in rating_score_items:
         print(f"{key} is rated at {value}")
+input("Please type a restaurant name")
+input("Please add a score")
     
 
         
